@@ -16,6 +16,15 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+span img {
+  display: inherit;
+}
+
 html {
   font-size: 1.125rem;
   font-family: "Epilogue", sans-serif;
